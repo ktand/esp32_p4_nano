@@ -2,6 +2,14 @@
 
 [![Component Registry](https://components.espressif.com/components/waveshare/esp32_p4_nano/badge.svg)](https://components.espressif.com/components/waveshare/esp32_p4_nano)
 
+NOTE: This is a clone of Waveshare BSP esp32_p4_nano 1.2.0 where
+
+.mirror_x = 0,
+.mirror_y = 0
+
+for
+CONFIG_BSP_LCD_TYPE_800_1280_10_1_INCH || CONFIG_BSP_LCD_TYPE_800_1280_10_1_INCH_A || CONFIG_BSP_LCD_TYPE_720_1280_7_INCH_A || CONFIG_BSP_LCD_TYPE_720_1280_9_INCH_B || CONFIG_BSP_LCD_TYPE_720_1280_10_1_INCH_B
+
 ESP32-P4-NANO is a small size and highly integrated development board designed by waveshare electronics based on ESP32-P4 chip
 | HW version | BSP Version |
 | :--------: | :---------: |
